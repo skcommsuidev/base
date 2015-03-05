@@ -1,4 +1,23 @@
 /* public/css/b.css */
-a {
-  text-decoration: none;
+#footer {width:100%; border-top:1px solid #333; background-color:#333; text-align:center; font-size:15px; font-family:Helvetica;}
+#footer .foot_wrap {padding:0 0 20px 0;}
+#footer .bt_wrap {margin:17px 0 15px;}
+#footer p.home { width:100%; margin:25px 0 0 0; height:10px; font-size:14px; letter-spacing:-1px;}
+#footer p.home a { color:#999; text-shadow: 0 1px 0 rgba(0,0,0, .4); }
+#footer p.privacy {width:100%; margin:12px 0 0 0; height:10px; font-size:12px; letter-spacing:-1px;}
+#footer p.privacy a {color:#999;}
+#footer p span.bar {padding:0 8px 0 7px; font-size:11px; color:#292928;}
+#footer p.copyright {width:100%; height:8px; color:#999; margin-top:17px; font-size:9px; letter-spacing:0;}
+#footer button {height:26px; padding:1px 8px 0 8px; border:1px solid #292928; font-size:90%; color:#bbb; letter-spacing:-1px; text-align:center; white-space:nowrap;
+  box-shadow:1px 1px 0 rgba(0,0,0, .1); -webkit-box-shadow:0 1px 1px rgba(0,0,0, .15); -moz-box-shadow:0 1px 0 rgba(0,0,0, .1);
+  background: #414141;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#414141), color-stop(100%,#313131));
+  background: -webkit-linear-gradient(top, #414141 0%,#313131 100%);
+  background: linear-gradient(to bottom, #414141 0%,#313131 100%);
+  cursor:pointer;
 }
+#footer button span {line-height:22px;text-shadow:0 1px 1px rgba(0, 0, 0, 0.5);}
+* html #footer ul li {display:inline;}
+*:first-child+html #footer ul li {display:inline;}
+* html #footer button {margin:0 1px; padding:0;}
+*:first-child+html #footer button {margin:0 1px; padding:0;}
